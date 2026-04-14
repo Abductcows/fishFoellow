@@ -4,7 +4,7 @@ import pygame
 #Surface defs init
 screen = pygame.display.set_mode((1200,800))
 pygame.display.set_caption('Pygame Test')
-test_surface = pygame.Surface((1200, 800))
+test_surface = pygame.Surface((1000, 800))
 test_surface.fill("white")
 cent_surf = pygame.Surface((100,100))
 cent_rect = screen.get_rect().center
