@@ -26,9 +26,9 @@ def createarena(rad=30):  # rad in px, pos X = cx + r*cos(θ), assuming cx = cy 
 
 # Offset and add cx and cy to x,y coords (Remove negative numbers)
 
-print('hi')
+#print('hi')
 
-if __name__ == '__main__':
-    createarena()
-    coords = createarena()
-    print('hi')
+# if __name__ == '__main__':
+#     createarena()
+#     coords = createarena()
+#     print('hi')
