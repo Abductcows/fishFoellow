@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling >= 1.29", "hatch-requirements-txt"]
+build-backend = "hatchling.build"
+
+
+# Front-end
+# install using pip
+
+[project]
+name = "fish-foellow"
+version = "0.0.1"
+dynamic = ["dependencies"]
+# version = "0.0.1"
+authors = [
+	{name="Chrysanthos Bouroutzoglou", email="xrysmpour@gmail.com"},
+	]
+description = "Creating fish movement heat-trails"
+readme = "README.md"
+requires-python = ">=3"
+classifiers = [
+"Development Status :: 3 - Alpha",
+"Programming Language :: Python :: 3",
+"Operating System :: OS Independent",
+]
+license = "GPL-3.0-or-later"
+license-files = ["LICEN[CS]E*"]
+keywords = ["fish", "track", "visualize", "trail", "heat", "heatmap", "heat-trail"]
+
+[tool.hatch.metadata.hooks.requirements_txt]
+files = ["requirements.txt"]
+
+[project.urls]
+Homepage = "https://github.com/Silberblume/fishFoellow"
+Issues = "https://github.com/Silberblume/fishFoellow/issues"
+
+
